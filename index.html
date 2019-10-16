@@ -41,6 +41,19 @@
 
                         <li class="todo-app__task-item task-item">
                             <div class="task-item__view">
+                                <input type="checkbox" checked="checked" class="task-item__status"
+                                       aria-label="Completed task: CSS" />
+                                <span class="task-item__text">CSS</span>
+                                <button class="task-item__delete">Delete Task</button>
+                            </div>
+                            <div class="task-item__edit" hidden="hidden">
+                                <input type="text" class="task-item__input"
+                                       value="CSS" aria-label="Edit task: CSS" />
+                            </div>
+                        </li>
+
+                        <li class="todo-app__task-item task-item">
+                            <div class="task-item__view">
                                 <input type="checkbox" class="task-item__status"
                                        aria-label="Completed task: JS tools" />
                                 <span class="task-item__text">JS tools</span>
