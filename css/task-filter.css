@@ -1,0 +1,12 @@
+.task-filter__input {
+  position: absolute;
+  left: -9999px;
+}
+.task-filter__text {
+  padding: 2px 6px;
+  border-radius: 2px;
+  border: 1px solid transparent;
+}
+.task-filter__input:checked + .task-filter__text {
+  border-color: #e6e6e6;
+}
