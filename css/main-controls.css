@@ -1,0 +1,27 @@
+.main-controls {
+  border-bottom: 1px #e6e6e6 solid;
+  box-sizing: border-box;
+  display: flex;
+  height: 64px;
+}
+
+.main-controls__select-all-button {
+  background-image: url("../img/select.svg");
+  background-position: 15px 26px;
+  background-repeat: no-repeat;
+  text-indent: -9999px;
+  height: 64px;
+  width: 56px;
+}
+
+.main-controls__create-new {
+  flex-grow: 1;
+}
+
+.main-controls__create-new-input {
+  box-sizing: border-box;
+  padding-top: 4px;
+  font-size: 24px;
+  height: 64px;
+  width: 100%;
+}

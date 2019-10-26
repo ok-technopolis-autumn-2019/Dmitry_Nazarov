@@ -1,0 +1,12 @@
+.tasks {
+  min-height: 296px;
+}
+.tasks:empty {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.tasks:empty::before {
+  content: "⌨";
+  font-size: 150px;
+}
