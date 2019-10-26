@@ -85,3 +85,5 @@ crashlytics-build.properties
 fabric.properties
 
 .idea
+.cache
+dist
