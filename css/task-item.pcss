@@ -9,9 +9,10 @@
   align-items: center;
   min-height: 59px;
   overflow: hidden;
-}
-.task-item__view:hover {
-  background-color: #fafafa;
+
+  @nest &:hover {
+    background-color: #fafafa;
+  }
 }
 .task-item__status-input {
   flex-shrink: 0;

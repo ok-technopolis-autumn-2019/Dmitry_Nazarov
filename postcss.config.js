@@ -1,9 +1,9 @@
 module.exports = {
-    plugins: {
-        "postcss-import": {},
-        "postcss-sassy-mixins": {},
-        "postcss-nesting": {},
-        "autoprefixer": {}
-    }
+    plugins: [
+        require('autoprefixer'),
+        require('postcss-import'),
+        require('postcss-nesting'),
+        require('postcss-sassy-mixins')
+    ]
 };
 
