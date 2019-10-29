@@ -3,7 +3,9 @@ module.exports = {
         require('autoprefixer'),
         require('postcss-import'),
         require('postcss-nesting'),
-        require('postcss-sassy-mixins')
+        require('postcss-sassy-mixins'),
+        require('postcss-use'),
+        require('stylelint')
     ]
 };
 
