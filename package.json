@@ -1,0 +1,24 @@
+{
+  "name": "frontend_technopolis",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "cssnano": "^4.1.10",
+    "postcss": "^7.0.21"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ok-technopolis-autumn-2019/Dmitry_Nazarov.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ok-technopolis-autumn-2019/Dmitry_Nazarov/issues"
+  },
+  "homepage": "https://github.com/ok-technopolis-autumn-2019/Dmitry_Nazarov#readme"
+}
