@@ -1,0 +1,14 @@
+.tasks {
+  min-height: 296px;
+
+  &:empty {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+
+  &:empty::before {
+    content: "⌨";
+    font-size: 150px;
+  }
+}

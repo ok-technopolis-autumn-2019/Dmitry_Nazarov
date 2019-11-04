@@ -1,0 +1,6 @@
+.title {
+  text-align: center;
+  font-weight: 200;
+  font-size: var(--font_size_large);
+  color: var(--color_opacity);
+}
