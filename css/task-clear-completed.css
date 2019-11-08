@@ -1,6 +1,6 @@
 .task-clear-completed {
   font-family: "Roboto", "Arial", sans-serif;
-  font-size: 14px;
-  color: #888888;
+  font-size: var(--font_size_small);
+  color: var(--color_secondary_text);
   padding: 8px 0;
 }

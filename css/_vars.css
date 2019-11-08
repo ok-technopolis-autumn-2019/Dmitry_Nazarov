@@ -1,0 +1,11 @@
+:root {
+    --color_bg: #ffffff;
+    --color_delimiter: #e6e6e6;
+    --color_primary_text: #666666;
+    --color_secondary_text: #888888;
+    --color_opacity: #cccccc;
+
+    --font_size_small: 14px;
+    --font_size_normal: 24px;
+    --font_size_large: 100px;
+}
